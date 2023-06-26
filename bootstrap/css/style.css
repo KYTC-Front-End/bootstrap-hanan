@@ -1,0 +1,87 @@
+:root {
+    --dark-color: #19283f;
+    --color: #33d1cc;
+    --red-color: #ff3150;
+    --yellow-color: #ffc400;
+    --section-color: #eff7fa;
+  }
+
+  /*Navbar */
+  .navbar {
+    background-color: var(--dark-color);
+    /* position: sticky; */
+  }
+  
+  .navbar .navbar-nav .nav-link {
+    color: white;
+  }
+  .navbar .navbar-nav .nav-link.active,
+  .navbar .navbar-nav .nav-link:focus,
+  .navbar .navbar-nav .nav-link:hover {
+    color: var(--color);
+  }
+  .navbar .search {
+    border-left: 1px solid var(--color);
+  }
+  .navbar .search svg {
+    color: var(--color);
+  }
+  .navbar .navbar-toggler {
+    color: white;
+    font-size: 25px;
+    border-color: white;
+  }
+
+  .navbar .navbar-toggler {
+    border-color: var(--color);
+  }
+  .btt {
+    background-color: var(--red-color);
+    color: var(--yellow-color);
+    padding: 0.5rem 1rem;
+  }
+  
+  .landing {
+    background-color: var(--dark-color);
+    min-height: calc(100vh - 72px);
+  }
+
+  /* Start Features */
+  .features .icon-holder {
+    height: 200px;
+  }
+  .features .icon-holder .number {
+    font-size: 12rem;
+    color: var(--section-color);
+  }
+  .features .icon-holder .icon {
+    color: var(--color);
+  }
+  .features .ff h4 {
+    color: var(--yellow-color);
+  }
+
+  /*  make  */
+  .make  {
+    background-color: var(--section-color);
+  }
+
+  .make  ul li {
+    padding:  2rem;
+    cursor: pointer;
+  }
+
+  .stuff .description {
+    max-width: 500px;
+  }
+ 
+  .team {
+    background-color: var(--section-color);
+  }
+  .team h2 {
+    color: var(--yellow-color);
+  }
+  .team  h4 {
+    background-color: var(--color);
+  }
+ 
